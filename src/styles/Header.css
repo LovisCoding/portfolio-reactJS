@@ -1,0 +1,73 @@
+/* Header.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Mooli:wght@500&display=swap');
+
+.navbar {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Comfortaa, sans-serif;
+}
+
+
+.navbar {
+    color: black;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: left; /* Utilise space-between pour aligner h2 à gauche et ul à droite */
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.name {
+    position: relative;
+    color: deepskyblue;
+    font-size: 28px;
+    font-family: Comfortaa, sans-serif;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.navbar span {
+    color: black;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: right; /* Aligne les liens à droite */
+    align-items: center;
+    margin-left: 80vh;
+}
+
+.navbar li {
+    margin: 0 30px;
+    font-size: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+        position: relative;
+}
+
+.navbar a:before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    height: 4px;
+    width: 100%;
+    background: black;
+    border-radius: 50px;
+    transform: scaleX(0);
+    transition: transform 0.2s linear;
+}
+
+.navbar :hover:before {
+    transform: scaleX(1);
+}
