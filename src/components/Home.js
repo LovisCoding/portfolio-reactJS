@@ -7,7 +7,7 @@ const Home = () => {
 	return(
 		<>
 		<div className="home">
-			<h1 >Arthur Lecomte</h1>
+			<h1 ><span className={'name'}>Arthur</span> Lecomte</h1>
 				<h2 className="text-slider">
 					<Typed
 						strings={[

@@ -22,7 +22,7 @@
 
 .socials{
     position: fixed;
-    bottom: 42.5%;
+    bottom: 46%;
     left: 50px;
     display: flex;
     flex-direction: column;
@@ -35,5 +35,8 @@
 }
 .socials svg:hover{
     transform: translateY(-5px);
-    fill: black
+    fill: dodgerblue;
+}
+.name {
+    color: dodgerblue;
 }

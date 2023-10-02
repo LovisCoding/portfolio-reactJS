@@ -2,6 +2,60 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mooli:wght@500&display=swap');
 
+
+
+nav h2{
+
+    font-size: 2rem;
+    color: black;
+    font-weight:700;
+}
+
+nav{
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: space-around;
+    padding: 35px 136px;
+}
+
+nav div{
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    gap: 60px;
+    font-size: 1.2rem;
+
+}
+
+.hover-link{
+    position: relative;
+    font-weight: 500;
+    color: black;
+}
+
+.hover-link::after{
+    position: absolute;
+    content: "";
+    background: dodgerblue;
+    height: 3px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s linear;
+
+}
+
+.hover-link:hover::after{
+    width: 100%;
+}
+nav a
+{
+    text-decoration: none;
+}
+
+
+/*
 .navbar {
     padding: 0;
     margin: 0;
@@ -17,8 +71,8 @@
 
 nav {
     display: flex;
-    /*align-items: center;*/
-    justify-content: left; /* Utilise space-between pour aligner h2 à gauche et ul à droite */
+    /*align-items: center;
+    justify-content: left; /* Utilise space-between pour aligner h2 à gauche et ul à droite
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -39,7 +93,7 @@ nav {
 .navbar ul {
     list-style: none;
     display: flex;
-    justify-content: right; /* Aligne les liens à droite */
+    justify-content: right; /* Aligne les liens à droite
     align-items: center;
     margin-left: 80vh;
 }
@@ -70,4 +124,4 @@ nav {
 
 .navbar :hover:before {
     transform: scaleX(1);
-}
+}*/

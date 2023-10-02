@@ -12,22 +12,18 @@ const Header = () => {
 
 function NavContent() {
 
-return <div className="navbar">
+return (
+	<>
 
-	<nav>
-		<h2 className="name">Arthur <span>Lecomte</span></h2>
-		<ul>
-			<li><a href="/" onClick={handleCLick}>Home</a> </li>
-			<li><a href="/">About</a> </li>
-			<li><a href="/">Work</a> </li>
-			<li><a href="/">Contact</a> </li>
-		</ul>
-	</nav>
-</div>;
+		<div className='nav-main-content'>
+		<a className='hover-link' href='/'>Accueil</a>
+		<a className='hover-link' href='#about'>A propos</a>
+		<a className='hover-link' href='#portfolio'>Travail</a>
+		<a className='hover-link' href='#contact'>Contact</a>
+		</div>
+	</>
+)
 }
 
-function handleCLick(e) {
-	e.preventDefault();
-	window.scrollTo({top :0});
-}
+
 export default Header;
