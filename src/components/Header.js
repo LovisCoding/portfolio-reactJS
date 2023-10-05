@@ -18,7 +18,7 @@ return (
 		<div className='nav-main-content'>
 		<a className='hover-link' href='#'>Accueil</a>
 		<a className='hover-link' href='#about'>A propos</a>
-		<a className='hover-link' href='#work'>Travail</a>
+		<a className='hover-link' href='#work'>Projets</a>
 		<a className='hover-link' href='#contact'>Contact</a>
 		</div>
 	</>
