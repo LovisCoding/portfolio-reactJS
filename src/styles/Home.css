@@ -23,7 +23,7 @@
 .socials{
     position: fixed;
     bottom: 46%;
-    left: 50px;
+    right: 50px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -34,8 +34,9 @@
     fill: grey;
 }
 .socials svg:hover{
-    transform: translateY(-5px);
+    transform: translateY(-5px) scale(1.1);
     fill: dodgerblue;
+    transition: transform 0.1s linear;
 }
 .name {
     color: dodgerblue;

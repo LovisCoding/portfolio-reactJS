@@ -1,6 +1,7 @@
 .about{
     height: 100vh;
     width: 100%;
+    padding-top: 70px;
 
 
 }
@@ -15,9 +16,28 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    margin-top: 50px;
+    margin: 0 50px;
 }
-.container svg{
-    height: 20vh;
-    width: 20vh;
+.container p{
+    line-height: 2.5em;
+    font-size: 1.66rem;
+}
+
+.cv {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding:20px 60px;
+    border-radius: 10px;
+    transition: transform 0.1s linear;
+}
+.cv:hover{
+    transform: scale(0.97);
+}
+.up-container{
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
+    gap: 30px;
+
 }
