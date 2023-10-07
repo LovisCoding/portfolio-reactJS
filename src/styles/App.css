@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+html{
     scroll-behavior: smooth;
-    font-family: Comfortaa, sans-serif;
-    color: black;
 }
 .app{
     width: 100vh;
@@ -12,6 +12,12 @@
 
 
 }
+body{
+    background: whitesmoke;
+    color: black;
+    font-family: Comfortaa, sans-serif;
+}
+
 a
 {
     text-decoration: none;

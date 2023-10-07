@@ -1,6 +1,8 @@
 import React from "react";
 import '../styles/Contact.css';
 import emailjs from "@emailjs/browser";
+import { AiFillPhone } from "react-icons/ai";
+import { IoLocationSharp } from 'react-icons/io5'
 
 function Contact() {
 	const form = React.useRef();
@@ -56,8 +58,10 @@ function Contact() {
 	return (
 		<div className="contact" id={'contact'}>
 			<h1 className={'title'}>Contactez-moi</h1>
+
 			<div className="container" >
 				<div className="contact-form">
+
 					<form ref={form} onSubmit={sendEmail}>
 						<label>Nom</label>
 						<input type="text" name="user_name" onChange={handleChange} value={name} />
@@ -67,7 +71,10 @@ function Contact() {
 						<textarea name="message" onChange={handleChange} value={message} />
 						<input type="submit" value="Send" />
 					</form>
+					<h3 className={'phone'}><AiFillPhone/> 06 51 89 22 75</h3>
+					<h3 className={'location'}><IoLocationSharp/> Le Havre, France</h3>
 					</div>
+
 			</div>
 		</div>
 	);

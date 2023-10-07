@@ -1,8 +1,9 @@
 import IMG1 from "../assets/Trophee_NSI.webp";
 import IMG2 from "../assets/Chat_Instantane.webp";
 import IMG3 from "../assets/CinkeTerra.webp";
-import IMG4 from "../assets/QrCode.webp";
-import IMG5 from "../assets/portfolio.webp";
+import IMG4 from "../assets/portfolio.webp";
+import IMG5 from "../assets/QrCode.webp";
+
 
 
  export  const soloProjects = [
@@ -38,27 +39,30 @@ import IMG5 from "../assets/portfolio.webp";
 		link: "",
 		github: "https://github.com/LovisCoding/SAE-2.01/tree/main",
 	},
+	 {
+		 id: 4,
+		 title: "Mon portfolio",
+		 img: IMG4,
+		 description:
+			 "Ce site permet de montrer mon niveau actuel en Web et " +
+			 "dans le but de trouver une alternance. Ce site représente ma première " +
+			 "utilisation de ReactJS.",
+		 technologies: "Html | CSS | ReactJS | NodeJs",
+		 link: "https://arthurlecomte.fr",
+		 github: "https://github.com/LovisCoding/portfolio-reactJS",
+	 },
+
 	{
-		id: 4,
+		id: 5,
 		title: "Générateur de QrCode",
-		img: IMG4,
+		img: IMG5,
 		description:
-			"Ce site m'a permit de m'entrainer en JavaScript",
-		technologies: "Html | CSS | JavaScript | Next Js",
+			"Ce site m'a permis de m'entraîner en JavaScript",
+		technologies: "Html | CSS | JavaScript",
 		link: "https://loviscoding.github.io/generateur-qrcode/",
 		github: "https://github.com/LovisCoding/generateur-qrcode",
 	},
-	{
-		id: 5,
-		title: "Mon portfolio",
-		img: IMG5,
-		description:
-			"J'ai créé ce portfolio, dans le but de montrer mon niveau actuel en Web et " +
-			"dans le but de trouver une alternance pour 2024",
-		technologies: "Html | CSS | ReactJS | NodeJs",
-		link: "https://arthurlecomte.fr",
-		github: "https://github.com/LovisCoding/portfolio-reactJS",
-	},
+
 
 ];
 

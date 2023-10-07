@@ -2,7 +2,6 @@ import React from "react";
 import '../styles/About.css';
 import Lottie from "lottie-react";
 import Working from "../assets/animation.json";
-import CV from "../assets/CV.pdf";
 
 function About() {
 		return(
@@ -16,7 +15,7 @@ function About() {
 						</p>
 						<Lottie style={{width: '45%'}} loop={true} animationData={Working}/>
 						</div>
-						<a href={CV} target={'_blank'} rel={'noopener noreferrer'} className={'cv'} download>Télécharger mon CV</a>
+						<a href={'https://drive.google.com/file/d/1tSHJuoFRnMt-4IUD8HR9HB1tYNx8b82M/view?usp=sharing'} target={'_blank'} rel={'noopener noreferrer'} className={'cv'} >Télécharger mon CV</a>
 					</div>
 
 				</div>
