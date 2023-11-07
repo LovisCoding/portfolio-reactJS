@@ -24,7 +24,7 @@ const Home = () => {
 		</div>
 		<div className="socials">
 			<a href="https://github.com/LovisCoding" target="_blank" rel="noopener noreferrer"><AiFillGithub/></a>
-			<a href="https://www.linkedin.com/in/arthur-lecomte-44354923b/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin/></a>
+			<a href="https://www.linkedin.com/in/lecomte-arthur/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin/></a>
 		</div>
 
 		</>
